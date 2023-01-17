@@ -28,7 +28,7 @@ response.json(quotes,pickFromArray)});
 //example: pickFromArray(myContactsArray)
 //
 function pickFromArray(arr) {
-  return const random=arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
 //Start our server so that it listens for HTTP requests!
